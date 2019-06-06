@@ -4,7 +4,7 @@ pseudo-Random Number Generator (RNG)
 
 Python3.x+ implementation based of the 32-bit [MT19937](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html) Specification.
 
-> **Note**: Implementation used for Python's RNG in the `random` module.
+> **Note**: Implementation used in Python's RNG in the `random` module.
 
 ---
 
