@@ -1,11 +1,3 @@
-#############################################################
-#                        									#
-#   Copyright (C) 2019 Zero-1729 <zero1729@protonmail.com>  #
-#   All rights reserved.                                    #
-#   														#
-#############################################################
-
-
 # Some constants
 _MATRIX_A = 0x9908B0DF
 
@@ -61,8 +53,8 @@ def _untemper(y):
     return y
 
 
-# Mersenne twister RNG
-class MTRNG:
+# Mersenne twister PRNG
+class MTPRNG:
     def __init__(self, seed=5489):
         self.state = [seed]
         self.index = 624
